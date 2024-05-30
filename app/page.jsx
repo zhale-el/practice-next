@@ -1,16 +1,20 @@
 import SwrComponent from "../components/componentSwr";
 import Cart from "../components/cart";
 import AddButton from "../components/addButton";
+import ReactFormOne from "../components/form";
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-3xl m-4"> Home page</h1>
-      <div>
+    <div className="flex items-center justify-around">
+      <div className="ml-4">
+        <h1 className="text-3xl"> Home page</h1>
+
         <SwrComponent />
-      </div>
-      <div className="text-center">
+
         <Cart />
         <AddButton />
+      </div>
+      <div className="w-96">
+        <ReactFormOne />
       </div>
     </div>
   );

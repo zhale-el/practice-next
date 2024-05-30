@@ -6,7 +6,7 @@ const AddButton = () => {
   return (
     <div>
       <button
-        className="border rounded bg-gray-200 px-4 py-2"
+        className="border rounded bg-blue-400 px-4 py-2"
         onClick={() => addToCart()}
       >
         add to cart
